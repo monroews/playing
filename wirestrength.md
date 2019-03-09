@@ -16,5 +16,5 @@ Wire_strength = (A_wire*Tensile).to(u.N)
 Wire_strength
 Stress = 1 * u.kg * u.standard_gravity/A_wire
 Strain = (Stress/elasticity).to(u.dimensionless)
-(Strain*4*u.m).to(u.mm)
+print('The wire will stretch',(Strain*4*u.m).to(u.mm),'when the force changes by 1 kg')
 ```
