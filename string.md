@@ -23,5 +23,9 @@ String_capillary_flow_max = 0.3 * u.mL/u.min
 
 theta = (string_water_volume/String_capillary_flow_max*String_H).to(u.min)
 theta
+bunch = 16
+string = 5*u.mL/u.min/bunch
+string
+minpump = 0.5 * u.mL/u.min
 
 ```
