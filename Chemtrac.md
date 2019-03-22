@@ -15,7 +15,13 @@ V
 Q_total = (500 * u.mL/u.min).to(u.mL/u.s)
 Q_total
 ConcAl = 1 * u.mg/u.L
-ConcClay = 100 * u.NTU
+ConcClay = 10 * u.NTU
+(fm.sep_dist_clay(ConcClay,fm.Clay)**3).to(u.mm**3)
+
+d_laser = 175 * u.um
+A_laser = pc.area_circle(d_laser)
+Guessed_sample_volume = (w*A_laser).to(u.mm**3)
+Guessed_sample_volume
 coag = 'PACl'
 fm.Clay
 DIM_FRACTAL = 2.3
@@ -34,4 +40,4 @@ G_wall =( 8 * V/w).to(u.Hz)
 G_wall
 ```
 It seems likely that flocs in the core of the flow aren't sheared assuming that the viscous boundary layer is still developing.
-Presumably the Chemtrac would detect a sheared floc as one particle if it creates a continuous signal. 
+Presumably the Chemtrac would detect a sheared floc as one particle if it creates a continuous signal.
