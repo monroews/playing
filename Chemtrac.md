@@ -14,8 +14,11 @@ V= (Q/w**2).to(u.m/u.s)
 V
 Q_total = (500 * u.mL/u.min).to(u.mL/u.s)
 Q_total
+fm.Clay.Diameter = 3 *10**-6
+# coincidence limit
+(1*u.mL / 20000).to(u.mm**3)
 ConcAl = 1 * u.mg/u.L
-ConcClay = 10 * u.NTU
+ConcClay = 3 * u.NTU
 (fm.sep_dist_clay(ConcClay,fm.Clay)**3).to(u.mm**3)
 
 d_laser = 175 * u.um
