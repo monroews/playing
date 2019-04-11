@@ -37,7 +37,7 @@ $${V_c} = \frac{{{V_{Plate \uparrow }}}}{{\frac{L}{D}\sin \alpha \cos \alpha  + 
 $${V_c} = \frac{{{V_{Tube \uparrow }}}}{{\frac{h}{D} \cos \alpha  + 1}}$$
 
 
-Also see the picture of nominal 3/8” cell PC Honeycomb in black. There is also a 10mm cell PP in natural above it. You can see the circular cell geometry creates a small interstitial area of open area between the cells.  Cell walls are about 5 mil for PC (5 pcf density) and 10 mil for PP (4 pcf density). The 3/8” cell is currently our largest PC cell Honeycomb.  Potential option is a ½”. The PP Honeycomb can go up to a 12mm cell.
+Below is a picture of nominal 3/8” cell PC Honeycomb in black. There is also a 10 mm cell PP in natural above it. You can see the circular cell geometry creates a small interstitial area of open area between the cells.  Cell walls are about 5 mil for PC (5 pcf density) and 10 mil for PP (4 pcf density). The 3/8” cell is currently our largest PC cell Honeycomb.  Potential option is a ½”. The PP Honeycomb can go up to a 12mm cell.
 
  ![graph](https://github.com/monroews/playing/raw/master/images/plasticore.jpg)
 
