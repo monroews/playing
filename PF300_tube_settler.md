@@ -30,7 +30,7 @@ def Tube_Vc(Tube_H=Tube_H,Tube_D=Tube_D,Up_V=Up_V,Tube_angle=Tube_angle):
 Tube_Vc(6*u.inch)
 
 ```
-WE can achieve a much lower capture velocity in a self supporting pack. 6 inch height would be sufficient to achieve our 0.12 mm/s. 
+We can achieve a low capture velocity in a compact, self-supporting pack. 6 inch height would be sufficient to achieve our 0.12 mm/s. Our previous work on [floc rollup](https://www.liebertpub.com/doi/10.1089/ees.2012.0295) suggests that we should get excellent performance with no floc roll up for these small diameter tubes.
 
 $${V_c} = \frac{{{V_{Plate \uparrow }}}}{{\frac{L}{D}\sin \alpha \cos \alpha  + 1}}$$
 
