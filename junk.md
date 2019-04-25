@@ -19,3 +19,6 @@ A_Pipe = pc.area_circle(ID)
 35/750
 50/750
 125/1500
+(4* u.Mgal/u.day/3).to(u.L/u.s)
+(37.6*u.MUSD/(4* u.Mgal/u.day)).to(u.kUSD/(u.L/u.s))
+```

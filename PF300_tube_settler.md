@@ -8,11 +8,13 @@ import matplotlib.pyplot as plt
 import numpy as np
 Sed_D = 36*u.inch
 Tube_D = 3/8 * u.inch
+Plate_angle = 60 * u.deg
 Tube_D.to(u.mm)
 Tube_angle = 60 * u.degree
 Sed_long_D = Sed_D/np.sin(Plate_angle)
 Sed_long_D
 Plate_H = 12 * u.inch
+
 Tube_S_horizontal = Tube_D/np.sin(Plate_angle)
 Tube_S_horizontal
 48*u.inch/Tube_S_horizontal
@@ -44,3 +46,11 @@ Below is a picture of nominal 3/8” cell PC Honeycomb in black. There is also a
 Below is a sketch of 12" high tube settlers with 3/8" diameter tubes.
 
  ![graph](https://github.com/monroews/playing/raw/master/images/Tube_settlers.png)
+
+
+High rate plate settlers?
+```python
+Vc_Park = (0.32*u.gal/u.min/u.ft**2).to(u.mm/u.s)
+Vc_Park
+```
+The plate settlers above have a higher capture velocity that what AguaClara is currently using.
