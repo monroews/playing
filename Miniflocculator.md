@@ -348,3 +348,18 @@ Volume_floc
 # or you can see the entire design as a dictionary of values
 myF.design
 ```
+
+If flocculator residence time is 5 minutes and sed tank upflow velocity is 1 mm/s and 2 m deep, then what is ratio of sed tank diameter to flocculator diameter?
+
+```Python
+Pi_A
+H_floc=2*u.m  
+V_sed = 1 * u.mm/u.s
+theta_sed = H_floc/V_sed
+theta_floc=5*u.min
+V_floc = H_floc/theta_floc
+Pi_A = V_sed/V_floc
+Pi_D = (np.sqrt(V_sed/V_floc)).to(u.dimensionless)
+Pi_D
+Pi_D*90*u.inch
+```

@@ -12,7 +12,7 @@ v_trickling = (0.06 * u.gal/u.min/u.ft**2).to(u.mm/u.s)
 v_trickling
 String_spacing= 6* u.mm
 String_flow = v_trickling*String_spacing**2
-print('The flowrate per string to match the velocity of low rate trickling filters is',ut.round_sf(String_flow.to(u.mL/u.min),2))
+print('The flowrate per string to match the velocity of low rate trickling filters is',ut.round_sf(String_flow.to(u.mL/u.s),2))
 String_H = 4 * u.m
 # mass of wetted string measured by Marcin
 string_water_volume = 0.3 * u.mL/u.m
