@@ -28,3 +28,4 @@ W_Lagoon = L_Lagoon/4
 W_Lagoon
 W_Lagoon*L_Lagoon
 ```
+See  Integrated Design and Operation of Water Treatment Facilities by Susumu Kawamura. page 377 for design guidelines
