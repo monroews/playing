@@ -1,37 +1,33 @@
 Day fraction since midnight on 11/5/2019	 State ID	 State name	 Rule that caused previous state to end
-0.35774174	0	OFF	Operator changed the state
-Day fraction since midnight on 11/5/2019	 State ID	 State name	 Rule that caused previous state to end
-0.35816320	0	OFF	Operator changed the state
-0.35832917	2	Warmup	Operator changed the state
-0.35834097	1	Run	go to run
-0.35836435	2	Warmup	go to warmup
-0.35837604	1	Run	go to run
-0.35839976	2	Warmup	go to warmup
-0.35841147	1	Run	go to run
-0.35843520	2	Warmup	go to warmup
-0.35844699	1	Run	go to run
-0.35847060	2	Warmup	go to warmup
-0.35848252	1	Run	go to run
-0.35850613	2	Warmup	go to warmup
-0.35851806	1	Run	go to run
-0.35854178	2	Warmup	go to warmup
-0.35855370	1	Run	go to run
-0.35857743	2	Warmup	go to warmup
-0.35858913	1	Run	go to run
-0.35861285	2	Warmup	go to warmup
-0.35862499	1	Run	go to run
-0.35864861	2	Warmup	go to warmup
-0.35866042	1	Run	go to run
-0.35868414	2	Warmup	go to warmup
-0.35869584	1	Run	go to run
-0.35871944	2	Warmup	go to warmup
-0.35873115	1	Run	go to run
-0.35875452	2	Warmup	go to warmup
-0.35876666	1	Run	go to run
-0.35879006	2	Warmup	go to warmup
-0.35880219	1	Run	go to run
-0.35882581	2	Warmup	go to warmup
-0.35883785	1	Run	go to run
-0.35886123	2	Warmup	go to warmup
-0.35887292	1	Run	go to run
-0.35887338	0	OFF	Operator changed the state
+0.36842392	0	OFF	Operator changed the state
+0.36855980	2	Warmup	Operator changed the state
+0.36875633	1	Run	go to run
+0.36877994	2	Warmup	go to warmup
+0.36879175	1	Run	go to run
+0.36881547	2	Warmup	go to warmup
+0.36882739	1	Run	go to run
+0.36885090	2	Warmup	go to warmup
+0.36886304	1	Run	go to run
+0.36888666	2	Warmup	go to warmup
+0.36889881	1	Run	go to run
+0.36892231	2	Warmup	go to warmup
+0.36893422	1	Run	go to run
+0.36895784	2	Warmup	go to warmup
+0.36896999	1	Run	go to run
+0.36899372	2	Warmup	go to warmup
+0.36900587	1	Run	go to run
+0.36902936	2	Warmup	go to warmup
+0.36904117	1	Run	go to run
+0.36906502	2	Warmup	go to warmup
+0.36907704	1	Run	go to run
+0.36910055	2	Warmup	go to warmup
+0.36911270	1	Run	go to run
+0.36913631	2	Warmup	go to warmup
+0.36914801	1	Run	go to run
+0.36917172	2	Warmup	go to warmup
+0.36918353	1	Run	go to run
+0.36920725	2	Warmup	go to warmup
+0.36921894	1	Run	go to run
+0.36924256	2	Warmup	go to warmup
+0.36925471	1	Run	go to run
+0.36926860	0	OFF	Operator changed the state
